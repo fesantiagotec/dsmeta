@@ -22,7 +22,6 @@ public class Sale {
 	private LocalDate date;
 	
 	public Sale() {
-		
 	}
 
 	public Long getId() {
@@ -37,8 +36,8 @@ public class Sale {
 		return sellerName;
 	}
 
-	public void setSellerName(String seller_name) {
-		this.sellerName = seller_name;
+	public void setSellerName(String sellerName) {
+		this.sellerName = sellerName;
 	}
 
 	public Integer getVisited() {
@@ -72,6 +71,4 @@ public class Sale {
 	public void setDate(LocalDate date) {
 		this.date = date;
 	}
-	
-	
 }
